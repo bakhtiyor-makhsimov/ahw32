@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>core</groupId>
-  <artifactId>ahw32a</artifactId>
+  <artifactId>ahw32</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>ahw32a</name>
+  <name>ahw32</name>
   <url>http://maven.apache.org</url>
 
   <properties>

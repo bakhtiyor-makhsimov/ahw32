@@ -14,7 +14,7 @@ import core.ahw32.Calculator;
 
 @RunWith(Parameterized.class)
 
-public class Multiply3PapameterizedTest {
+public class Multiply3ParameterizedTest {
 	
 	@Parameters(name = "Parameter # {index}: {1} * {2} * {3} = {0}")
 
