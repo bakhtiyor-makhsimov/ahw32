@@ -1,4 +1,4 @@
-package core.ahw32a;
+package core.ahw32;
 
 import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
@@ -9,6 +9,8 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 
 import org.junit.runners.Parameterized.Parameters;
+
+import core.ahw32.Calculator;
 
 @RunWith(Parameterized.class)
 
@@ -31,7 +33,7 @@ public class Subtract2ParameterizedTest {
 	@Parameter(value = 2) public Double second;
 
 	@Test
-	public void add() {
+	public void subtract() {
        System.out.println(first + " - " + second + " = " + expected);
        assertEquals("Not correct", Calculator.subtract(first, second), expected, 0.09);
 		  }

@@ -1,6 +1,5 @@
-package core.ahw32a;
+package core.ahw32;
 
-import core.ahw32a.Calculator;
 import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
 import java.util.Collection;
@@ -10,6 +9,8 @@ import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameter;
 
 import org.junit.runners.Parameterized.Parameters;
+
+import core.ahw32.Calculator;
 
 @RunWith(Parameterized.class)
 

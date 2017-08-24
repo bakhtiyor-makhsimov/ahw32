@@ -1,4 +1,4 @@
-package core.ahw32a;
+package core.ahw32;
 
 public class Calculator {
 	static double add(double a, double b) {

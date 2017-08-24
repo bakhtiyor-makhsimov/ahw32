@@ -1,4 +1,4 @@
-package core.ahw32a;
+package core.ahw32;
 
 import static org.junit.Assert.assertEquals;
 import java.util.Arrays;
@@ -10,9 +10,12 @@ import org.junit.runners.Parameterized.Parameter;
 
 import org.junit.runners.Parameterized.Parameters;
 
+import core.ahw32.Calculator;
+
 @RunWith(Parameterized.class)
 
 public class Divide2ParameterizedTest {
+	
 	@Parameters(name = "Parameter # {index}: {1} / {2} = {0}")
 
     public static Collection<Double[]> divideNumbers() {
@@ -30,10 +33,10 @@ public class Divide2ParameterizedTest {
 	@Parameter(value = 2) public Double second;
 
 	@Test
-	public void add() {
+	public void divide() {
        System.out.println(first + " / " + second + " = " + expected);
        assertEquals("Not correct", Calculator.divide(first, second), expected, 0.09);
-		  }
+	}
 }
 
 

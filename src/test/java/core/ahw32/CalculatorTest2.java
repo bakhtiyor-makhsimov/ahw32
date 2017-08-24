@@ -1,8 +1,10 @@
-package core.ahw32a;
+package core.ahw32;
 
 import static org.junit.Assert.*; 
 import org.junit.*; 
 import org.junit.runners.MethodSorters;
+
+import core.ahw32.Calculator;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
